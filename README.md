@@ -1,217 +1,245 @@
-# Developer Brand Strategy
-## Pranshu Kumar · Complete Implementation Guide
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,30:1a0533,60:2d1b69,100:0a0a0f&height=220&section=header&text=Pranshu%20Kumar&fontSize=56&fontColor=E8D5FF&fontAlignY=40&fontAlign=50&desc=I%20build%20AI%20that%20earns%20trust%20in%20domains%20where%20being%20wrong%20has%20consequences&descAlignY=62&descSize=15&descColor=9D7FD4&animation=fadeIn" width="100%"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+<a href="https://www.linkedin.com/in/dev-pranshu/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="26"/></a>&nbsp;
+<a href="https://orcid.org/0009-0006-4285-1817"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" height="26"/></a>&nbsp;
+<a href="https://resumeiq-pk04.streamlit.app/"><img src="https://img.shields.io/badge/ResumeIQ_Live-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" height="26"/></a>&nbsp;
+<a href="https://sage-kappa-five.vercel.app"><img src="https://img.shields.io/badge/Sage_Agent_Live-000000?style=flat-square&logo=vercel&logoColor=white" height="26"/></a>&nbsp;
+<a href="https://nanostability-ai.vercel.app"><img src="https://img.shields.io/badge/NanoStability_Live-7C3AED?style=flat-square&logo=vercel&logoColor=white" height="26"/></a>
+</div>
+
+<br/>
 
 ---
 
-## 1. Brand Positioning Statement
+## The thread
 
-**The one-line identity:**
-> *"ML engineer who builds AI for domains where being wrong has consequences — healthcare, materials science, and agentic systems. Every project is deployed."*
+Most ML developers pick a lane — NLP, or CV, or tabular data — and stay there. I went sideways.
 
-**Why this positioning wins:**
-Most ML profiles say "I'm passionate about machine learning." This one says: I work on hard problems in high-stakes domains, I ship everything, and I can explain every design decision. That combination is genuinely rare at the early-career stage. It signals senior thinking in a junior candidate — which is exactly what a YC founder or engineering manager stops scrolling for.
+I've applied ML to cardiovascular risk (920 patients, 4 clinical sites), nanomaterial stability (DFT-informed features, Au/Ag clusters), cryptocurrency forecasting (LSTM + XGBoost hybrid), and autonomous AI agents with real-time web synthesis. Not as an exercise in breadth. As a consequence of asking one question repeatedly: *what does this domain actually need from a model that most practitioners miss?*
 
----
+In cardiology, it's calibration — a model that says 73% should mean 73%, because the cost of overconfidence is a missed referral. In nanoscience, it's physics-informed features — HOMO-LUMO gap and formation energy aren't arbitrary inputs, they're the quantum-mechanical fingerprint of whether a cluster holds together. In agentic AI, it's judgment — the agent needs to decide *when* to search, not just *how*, because indiscriminate tool use is noise.
 
-## 2. GitHub Profile: Implementation Checklist
+Every project in this profile is a deployed product with a live URL, a documented architecture, and design decisions I can defend under questioning. I write READMEs the way I write code: architecture-first, with every tradeoff named.
 
-### Step 1 — Create the profile README repo
-1. Go to github.com/new
-2. Name the repo **exactly**: `dev-pranshu04`
-3. Make it **Public**
-4. Check "Add a README file"
-5. Click Create repository
-6. Delete the default README content
-7. Paste the entire README from the attached file
-
-### Step 2 — Pin repos in this exact order
-The order signals priority to every visitor. Pin them in this sequence:
-1. `resumeiq` — most impressive end-to-end system, most stars
-2. `cardiorisk-ai` — high-stakes domain, strong AUC metrics, best documented
-3. `nanostability-ai` — research credibility, full-stack deployment, live URL
-4. `Sage_Research_Agent` — agentic AI, TypeScript, modern stack
-5. `Stability-Prediction-of-Gold-Silver-Nanoclusters` — research depth
-6. `Nordek_Internship_personal_project` — real-world internship signal
-
-### Step 3 — GitHub profile bio (140 chars max)
-```
-ML Engineer · Physics-informed ML · Agentic AI · Clinical Decision Support · Everything deployed.
-```
-
-### Step 4 — GitHub profile links
-- Website: your Streamlit app or portfolio URL
-- LinkedIn: linkedin.com/in/dev-pranshu
-- ORCID: orcid.org/0009-0006-4285-1817
-
-### Step 5 — Add topics to every repo
-These make repos discoverable via GitHub search:
-
-**resumeiq:** `rag` `llm` `ollama` `langchain` `chromadb` `ats` `streamlit` `local-llm` `mistral` `sentence-transformers`
-
-**cardiorisk-ai:** `healthcare-ai` `clinical-decision-support` `xgboost` `ensemble-learning` `calibration` `streamlit` `cardiovascular`
-
-**nanostability-ai:** `physics-informed-ml` `nanoscience` `dft` `xgboost` `fastapi` `react` `materials-science` `machine-learning`
-
-**Sage_Research_Agent:** `react-agent` `llm-agent` `groq` `nextjs` `typescript` `sse-streaming` `tavily` `autonomous-agent`
+**Now:** Deepening expertise in agentic systems, LLM orchestration, and local-first inference. Building toward AI infrastructure for high-stakes domains where explainability is a hard requirement, not a talking point.
 
 ---
 
-## 3. Banner Design Brief
+## What I'm building right now
 
-**For Canva, Figma, or a designer:**
-
-- **Dimensions:** 1500 × 500px (GitHub profile banner)
-- **Background:** Deep space gradient — `#0a0a0f` (far left) → `#1a0533` (center-left) → `#2d1b69` (center) → `#0a0a0f` (far right). No noise texture, no gradients that look cheap.
-- **Typography:** Name "PRANSHU KUMAR" in a clean geometric sans-serif (Space Grotesk, Inter, or Syne). 72px, weight 600, color `#E8D5FF`. Left-aligned, vertically centered.
-- **Subtitle line:** "ML Engineer · AI for High-Stakes Domains" — 22px, `#9D7FD4`, same left alignment, 12px below name.
-- **Right side element:** A subtle, elegant illustration — abstract node-graph lines suggesting a neural network or molecular structure. Low opacity (15–20%), color `#7C3AED`. This is *decoration*, not the focus.
-- **What to absolutely avoid:** Stock photos of brains, generic "AI" imagery, circuit board textures, neon glow effects, robotic hands, any cliché tech iconography.
-
-**Simpler alternative (no designer needed):**
-Use capsule-render with these parameters — already embedded in the README. It renders clean purple-dark gradients with your name and tagline automatically.
+| | Project | Status |
+|---|---|---|
+| 🔬 | Physics-informed ML for scientific property prediction | Active |
+| 🤖 | Multi-step agentic pipelines with structured tool use | Active |
+| 🏥 | Clinical AI with calibrated uncertainty and risk tiers | Deployed |
+| 🔒 | Local-first LLM infrastructure (zero cloud, zero cost, zero data exposure) | Deployed |
+| 📄 | End-to-end document intelligence with RAG and semantic reranking | Deployed |
 
 ---
 
-## 4. Profile Photo Recommendations
+## The work
 
-**What recruiters and founders respond to:**
-- Plain, slightly muted background (dark grey, off-white, or deep blue — not a wall or a busy scene)
-- Visible from the shoulders up
-- Direct eye contact with camera
-- Neutral-to-slight smile — approachable, not stiff
-- Professional but not corporate. A clean t-shirt or casual collared shirt works better than a suit for ML/AI roles.
-- **Lighting:** Natural light from a window beside you (not behind you). Avoid overhead fluorescent.
+### ResumeIQ — Offline ATS Intelligence Platform
 
-**What kills first impressions:**
-- Selfie angle (camera below eye level, distorted)
-- Group photos cropped to just you
-- Sunglasses, heavy filters, vacation shots
-- Blurry or low resolution
-- No photo at all (this costs you more than a bad photo)
+> *75% of resumes are rejected before a human reads them. Not because the candidate is underqualified. Because the ATS parser doesn't recognize their keywords. ResumeIQ fixes that — entirely on your machine.*
+
+The conventional tools for this problem use cloud LLM APIs. They're expensive, they expose your resume to third-party servers, and they go down. I built the opposite: a fully local pipeline running Mistral-7B via Ollama that scores a resume across 8 dimensions, rewrites every bullet point in STAR format, simulates the ATS parser's view vs. the recruiter's view, and exports a corrected `.docx` — at zero API cost, with the model weights running on your CPU.
+
+The architecture decision that most people miss: scoring is 65% LLM semantic judgment blended with 35% ChromaDB cosine similarity. The LLM alone drifts on long documents — chunking (300 tokens, 40-token overlap via LangChain) keeps semantic context tight, and the vector similarity score anchors the LLM's judgment against an objective similarity measure. Neither alone is as reliable as both together.
+
+Ships with a full CI/CD pipeline: GitHub Actions → ruff lint → pytest → Docker image build → push to GHCR → GitHub release tag.
+
+```
+Tech: Python · Ollama · Mistral-7B · LangChain · ChromaDB · SentenceTransformers
+      all-MiniLM-L6-v2 · Streamlit · python-docx · Docker · GitHub Actions
+```
+
+[![Repo](https://img.shields.io/badge/Code-dev--pranshu04/resumeiq-181717?style=flat-square&logo=github)](https://github.com/dev-pranshu04/resumeiq)
+[![Live](https://img.shields.io/badge/Live_App-resumeiq--pk04.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://resumeiq-pk04.streamlit.app/)
+[![Stars](https://img.shields.io/github/stars/dev-pranshu04/resumeiq?style=flat-square&color=FFD700&label=⭐)](https://github.com/dev-pranshu04/resumeiq/stargazers)
 
 ---
 
-## 5. LinkedIn Optimization
+### CardioRisk AI — Clinical Decision Support
 
-### Headline (220 chars max — use all of it)
+> *Cardiovascular disease is the leading cause of death globally. A clinician with 13 routine measurements and 90 seconds should be able to get a calibrated risk score. This does that.*
+
+The design philosophy here is deliberately different from most healthcare ML projects. Most optimize for AUC. I optimized for clinical usefulness — which meant making three choices that aren't in any textbook.
+
+First, the risk thresholds (0.30 / 0.60) are not split evenly. They're set to minimize false negatives in the HIGH tier, because in cardiology, the cost of sending a healthy patient for more tests is far lower than the cost of telling a sick patient they're fine.
+
+Second, median imputation over SMOTE for class imbalance. SMOTE generates synthetic patients that don't exist. Median imputation makes a conservative assumption about real patients. In a medical dataset, synthetic data artifacts are a liability.
+
+Third, the 65/35 XGBoost-to-LR ensemble weight. Logistic Regression produces well-calibrated probabilities on linearly separable feature subspaces. Including it at 35% weight smooths XGBoost's overconfident edge-case predictions — the exact cases where you most need calibration to hold.
+
+Result: 0.910 AUC-ROC, 0.900 five-fold CV AUC (low variance), trained on 920 patients across four clinical institutions (Cleveland, Hungary, Switzerland, VA Long Beach) — geographic diversity that actively reduces single-centre bias.
+
 ```
-ML Engineer · Agentic AI | Clinical Decision Support | Physics-Informed ML | Building AI that ships and earns trust in high-stakes domains
-```
-
-**Why this headline wins:** Most ML developers write "Machine Learning Engineer | Python | TensorFlow." That's a job title, not a brand. This headline tells a recruiter three things in one sentence: what you build, where you apply it, and what you believe about it.
-
-### About Section (full copy — ready to paste)
-
-```
-I build machine learning systems for domains where the cost of being wrong is high.
-
-That constraint changes everything about how you design. In clinical AI, you optimize 
-for calibration alongside accuracy — because a model that says 73% should mean 73%, 
-and a clinician needs to know how much to trust the output, not just whether it's 
-usually right. In scientific ML, you encode domain knowledge as model priors — 
-because a gradient boosting model that understands HOMO-LUMO gap is more useful 
-than one that treats every feature as equivalent noise. In agentic AI, you build 
-judgment, not just capability — because an agent that searches indiscriminately is 
-slower and worse than one that knows when to stop.
-
-Selected work:
-
-→ ResumeIQ — End-to-end local LLM pipeline for ATS analysis. Runs Mistral-7B via 
-  Ollama, scores resumes across 8 dimensions, rewrites bullets in STAR format, 
-  exports improved .docx. Zero cloud cost, zero data exposure. Full CI/CD to GHCR.
-
-→ CardioRisk AI — Clinical decision support for cardiovascular risk. XGBoost + 
-  Logistic Regression ensemble trained on 920 patients across 4 institutions. 
-  0.910 AUC-ROC. Risk thresholds calibrated for patient safety, not F1 optimization.
-
-→ NanoStability AI — Physics-informed ML for Au/Ag nanocluster stability. 
-  Built at NSUT Computational Chemistry Lab. 85% accuracy, 0.912 ROC-AUC. 
-  XGBoost + SVM + MLP ensemble on 11 DFT-derived features. FastAPI + React, 
-  live at nanostability-ai.vercel.app.
-
-→ Sage Research Agent — ReAct-loop AI agent with SSE streaming, live web search, 
-  and autonomous planning. Built on Next.js 14, Groq, Tavily. Fully free to run.
-
-Every project is deployed and publicly accessible.
-
-Open to ML engineering roles, research collaborations in scientific or clinical AI, 
-and founding team conversations at AI-for-science companies.
-
-GitHub: github.com/dev-pranshu04
-ORCID: orcid.org/0009-0006-4285-1817
+Tech: Python · XGBoost · scikit-learn · Logistic Regression · Streamlit
+      Pandas · Matplotlib · UCI Heart Disease Dataset (920 patients, 4 sites)
 ```
 
-### Featured Section (3 items, in this order)
-1. **ResumeIQ live app** — resumeiq-pk04.streamlit.app (most relatable, highest click rate)
-2. **NanoStability AI live app** — nanostability-ai.vercel.app (research credibility signal)
-3. **GitHub profile** — github.com/dev-pranshu04 (drives profile traffic)
+[![Repo](https://img.shields.io/badge/Code-dev--pranshu04/cardiorisk--ai-181717?style=flat-square&logo=github)](https://github.com/dev-pranshu04/cardiorisk-ai)
+[![Live](https://img.shields.io/badge/Live_App-cardiorisk--ai--pk04.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://cardiorisk-ai-pk04.streamlit.app/)
+[![AUC](https://img.shields.io/badge/AUC--ROC-0.910-22C55E?style=flat-square)](https://github.com/dev-pranshu04/cardiorisk-ai)
+[![Stars](https://img.shields.io/github/stars/dev-pranshu04/cardiorisk-ai?style=flat-square&color=FFD700&label=⭐)](https://github.com/dev-pranshu04/cardiorisk-ai/stargazers)
 
-### Experience Section — How to write each internship entry
+---
 
-**Nordek Blockchain (Fintech Internship)**
+### NanoStability AI — Physics-Informed ML for Nanoscience
+
+> *DFT simulations take hours per cluster. Screening 10,000 candidates is computationally impossible. ML that speaks the language of quantum chemistry can change that.*
+
+Built during my internship at NSUT Computational Chemistry Lab (May–Aug 2025). The core insight: if you give a gradient boosting model the same features a computational chemist uses to reason about stability — HOMO-LUMO gap, formation energy, binding energy, coordination number — it can learn the physical intuition behind why some clusters hold together and others don't.
+
+The ensemble: XGBoost (300 trees) + SVM (RBF kernel) + MLP (64-32-16). Each model captures a different aspect of the structure-stability relationship. XGBoost handles nonlinear interactions between quantum features. SVM with RBF kernel finds the stability boundary in high-dimensional feature space. MLP captures learned representations that neither tree nor kernel method can.
+
+**85% accuracy, 0.912 ROC-AUC** on 200 Au/Ag nanoclusters (n = 3–20 atoms, 11 DFT-derived features).
+
+Full-stack deployment: FastAPI backend (pre-trained `.joblib`, instant load) + React frontend. Auto-deploys via `render.yaml` + `vercel.json` — push to main, both services redeploy in two minutes.
+
 ```
-Built a production Streamlit dashboard combining LSTM deep learning and XGBoost 
-gradient boosting for NRK cryptocurrency price forecasting. Designed the 
-hybrid architecture to capture temporal sequence patterns (LSTM) and feature 
-interaction signals (gradient boosting) simultaneously — neither model alone 
-handled both. Dashboard deployed and used by the team throughout the internship.
+Tech: Python · XGBoost · SVM · MLP · FastAPI · React · scikit-learn
+      joblib · Render · Vercel · DFT-derived features
 ```
 
-**NSUT Computational Chemistry Lab**
+[![Repo](https://img.shields.io/badge/Code-dev--pranshu04/nanostability--ai-181717?style=flat-square&logo=github)](https://github.com/dev-pranshu04/nanostability-ai)
+[![Live](https://img.shields.io/badge/Live_App-nanostability--ai.vercel.app-7C3AED?style=flat-square&logo=vercel&logoColor=white)](https://nanostability-ai.vercel.app)
+[![Accuracy](https://img.shields.io/badge/Accuracy-85%25-22C55E?style=flat-square)](https://github.com/dev-pranshu04/nanostability-ai)
+
+---
+
+### Sage Research Agent — ReAct-Loop AI Agent
+
+> *You ask a question. The agent plans, searches the web up to five times, and returns a cited, structured report. Streaming. Real-time. Free.*
+
+The key architecture decision is where the intelligence lives. A naive implementation pre-writes the search queries. Sage uses a ReAct loop — the LLM reasons about whether it has enough information to answer *before* deciding whether to search again. Tool calling is judgment-driven, not scripted. This is the difference between an LLM with a search button and an actual reasoning agent.
+
+Server-Sent Events stream each reasoning step to the frontend as it happens — you watch the agent think, not a spinner. Built on Next.js 14 App Router with full TypeScript throughout, powered by Groq's Llama 3.3 70B at free-tier speeds (~14,400 req/day).
+
+Total infrastructure cost: $0.
+
 ```
-Applied physics-informed machine learning to Au/Ag nanocluster stability 
-prediction as part of an academic research internship. Built an XGBoost + SVM + 
-MLP ensemble using 11 DFT-derived quantum chemistry features (HOMO-LUMO gap, 
-formation energy, binding energy). Achieved 85% accuracy and 0.912 ROC-AUC on 
-200 nanocluster samples. Deployed full-stack: FastAPI backend + React frontend, 
-live at nanostability-ai.vercel.app.
+Tech: Next.js 14 · TypeScript · Groq · Llama 3.3 70B · Tavily API
+      SSE Streaming · ReAct Architecture · Vercel
+```
+
+[![Repo](https://img.shields.io/badge/Code-dev--pranshu04/Sage_Research_Agent-181717?style=flat-square&logo=github)](https://github.com/dev-pranshu04/Sage_Research_Agent)
+[![Live](https://img.shields.io/badge/Live_App-sage--kappa--five.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white)](https://sage-kappa-five.vercel.app)
+
+---
+
+### Nordek Crypto Forecaster — Deep Learning + Gradient Boosting Hybrid
+
+> *A production-grade Streamlit dashboard combining LSTM sequence modeling with XGBoost feature interactions for NRK cryptocurrency price prediction.*
+
+Built during a fintech internship at Nordek Blockchain. The architectural thesis: LSTM captures temporal patterns (momentum, trend reversals, volatility regimes). XGBoost captures feature interactions (volume × price spread, RSI × MACD divergence). Neither model alone handles both. The dashboard presents both outputs alongside ensemble predictions with confidence intervals.
+
+```
+Tech: Python · LSTM · XGBoost · Streamlit · Pandas · deep learning
+```
+
+[![Repo](https://img.shields.io/badge/Code-dev--pranshu04/Nordek_Internship--project-181717?style=flat-square&logo=github)](https://github.com/dev-pranshu04/Nordek_Internship_personal_project)
+
+---
+
+## Stack
+
+<div align="center">
+
+| Layer | Technologies |
+|---|---|
+| **Primary Languages** | Python · TypeScript · JavaScript · SQL |
+| **ML / AI Core** | XGBoost · scikit-learn · PyTorch · SentenceTransformers · LangChain |
+| **LLMs & Inference** | Ollama · Mistral-7B · Groq · Llama 3.3 70B · ChromaDB |
+| **Full-Stack** | Next.js 14 · React · FastAPI · Streamlit · Tailwind CSS |
+| **Data** | Pandas · NumPy · Plotly · Matplotlib · pdfplumber |
+| **DevOps** | Docker · GitHub Actions · Ruff · pytest · GHCR |
+| **Cloud & Deploy** | Vercel · Render · Streamlit Cloud |
+| **Research** | DFT-derived features · HOMO-LUMO gap modeling · RAG · SSE streaming |
+
+</div>
+
+---
+
+## Metrics
+
+<div align="center">
+
+<img height="175em" src="https://github-readme-stats.vercel.app/api?username=dev-pranshu04&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&title_color=9D7FD4&icon_color=9D7FD4&text_color=c9d1d9&bg_color=0d1117"/>
+<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-pranshu04&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=9D7FD4&text_color=c9d1d9&bg_color=0d1117"/>
+
+</div>
+
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=dev-pranshu04&theme=tokyonight&hide_border=true&ring=9D7FD4&fire=9D7FD4&currStreakLabel=9D7FD4" width="55%"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dev-pranshu04&bg_color=0d1117&color=9D7FD4&line=9D7FD4&point=E8D5FF&area=true&area_color=2d1b69&hide_border=true" width="95%"/>
+</div>
+
+---
+
+## Credentials
+
+| | |
+|---|---|
+| **ORCID** | [0009-0006-4285-1817](https://orcid.org/0009-0006-4285-1817) — formal research identity across published and academic work |
+| **NSUT Comp. Chemistry Lab** | ML research internship, May–Aug 2025 — physics-informed ML on real DFT datasets |
+| **Nordek Blockchain** | Fintech internship — production forecasting dashboard in live use |
+| **GitHub Actions CI/CD** | ResumeIQ ships with a full pipeline: lint → test → Docker build → GHCR push → tagged release |
+
+---
+
+## How I think
+
+**On model selection:** The right model for a problem is the one that encodes what you already know about the domain — not the one that scores highest on the leaderboard. XGBoost for cardiology because nonlinear feature interactions are real. Physics-informed features for nanoscience because quantum chemistry is real. Local Mistral for ATS scoring because privacy is real.
+
+**On calibration vs. accuracy:** In high-stakes domains, a model that says 73% should mean 73%. Accuracy tells you how often the model is right. Calibration tells you how much to trust it when it's uncertain. I optimize for both, but calibration is the one that determines whether a clinician can actually use the output.
+
+**On deployment:** A model that doesn't ship doesn't exist. Every project in this profile has a live URL. Not because deployment is glamorous — it's tedious — but because the only way to know if something actually works is to run it in the real world.
+
+**On explainability:** I don't treat explainability as a regulatory checkbox. I treat it as a design constraint that makes better models. If you can't explain why the XGBoost model flagged fluoroscopy vessel count as the top predictor, you can't validate that the model learned cardiology instead of learning dataset artifacts.
+
+---
+
+## Learning trajectory
+
+```
+Currently    ──▶  Agentic AI systems · multi-step planning · structured tool use
+Next         ──▶  LLM fine-tuning with LoRA/QLoRA on domain-specific corpora
+Following    ──▶  Distributed training · PyTorch DDP · gradient checkpointing
+Research     ──▶  Physics-informed neural networks · graph NNs for molecular property prediction
+Always       ──▶  MLOps · model versioning · production drift detection
 ```
 
 ---
 
-## 6. GitHub SEO — Search Discoverability
+## Open to
 
-GitHub search ranks profiles and repositories by: username keywords, bio text, repository topics, repository description text, and README content.
-
-**Username:** `dev-pranshu04` — already has "dev" in it, which is a search signal.
-
-**Bio:** Add `ml-engineer`, `agentic-ai`, `healthcare-ai`, `physics-informed-ml` as natural phrases — these appear in search results.
-
-**Repository descriptions** (the one-line description under each repo name) — update these to include high-value search keywords:
-
-- resumeiq: `"Offline ATS intelligence. Local LLM pipeline (Mistral-7B + LangChain + ChromaDB) for resume scoring, gap analysis, and STAR rewriting. Zero API cost."`
-- cardiorisk-ai: `"Clinical decision support for cardiovascular risk. XGBoost + LR ensemble, 0.910 AUC-ROC, 920 patients. Calibrated risk tiers for clinical use."`
-- nanostability-ai: `"Physics-informed ML for Au/Ag nanocluster stability. XGBoost + SVM + MLP ensemble, 85% accuracy. FastAPI + React. NSUT Comp. Chemistry Lab."`
-- Sage_Research_Agent: `"Autonomous ReAct-loop AI agent. Groq + Llama 3.3 70B + Tavily. SSE streaming. Next.js 14 + TypeScript. Fully free."`
+- ML engineering roles at companies where the model actually ships to users
+- Research collaborations in scientific ML, clinical AI, or agentic systems
+- Founding team conversations at AI-for-science or developer-tools startups
+- Anyone building in domains where being wrong has consequences
 
 ---
 
-## 7. The One Missing Piece: Personal Portfolio Site
+<div align="center">
 
-A portfolio site at `pranshu.dev` or `pranshukumar.com` or even `dev-pranshu.vercel.app` would complete the professional picture and serve as a canonical URL you control.
+**Pranshu Kumar**
 
-**Minimum viable version (one page, 4 hours of work):**
-- Hero: name, title, one-line positioning statement
-- Projects: the same 4 featured projects with live links
-- Contact: LinkedIn + GitHub + email
-- Deploy to Vercel (free)
+[linkedin.com/in/dev-pranshu](https://www.linkedin.com/in/dev-pranshu/) · [orcid.org/0009-0006-4285-1817](https://orcid.org/0009-0006-4285-1817)
 
-This URL then goes in your GitHub bio, LinkedIn header, email signature, and every README. It becomes the single hub that all other surfaces point to.
+<br/>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,30:1a0533,60:2d1b69,100:0a0a0f&height=100&section=footer&fontColor=9D7FD4" width="100%"/>
 
-## 8. The 10-Minute Setup (Do This Today)
-
-1. Create `dev-pranshu04/dev-pranshu04` repo → paste README
-2. Update GitHub bio to: `ML Engineer · Physics-informed ML · Agentic AI · Clinical Decision Support · Everything deployed.`
-3. Pin the 6 repos in the order listed above
-4. Add topics to all 4 main repos
-5. Update LinkedIn headline to the copy above
-6. Add 3 Featured items on LinkedIn
-7. Update each repo description with the SEO copy
-
-Total time: ~45 minutes. Impact: permanent.
-
----
-
-*Every recommendation in this document is specific to Pranshu's actual work — not a template.*
+</div>
