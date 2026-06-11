@@ -209,8 +209,6 @@ Production Streamlit dashboard combining LSTM deep learning and XGBoost for NRK 
 
 <div align="center">
 
-> **To activate:** Go to your repo's **Actions** tab → find **"Generate Snake"** → click **"Run workflow"** → done. Updates every day automatically.
-
 <br/>
 
 <picture>
