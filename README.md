@@ -16,8 +16,6 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-9D7FD4?style=flat-square&labelColor=1d1f2e)](#)&nbsp;
 [![Resume](https://img.shields.io/badge/Resume-9D7FD4?style=flat-square&labelColor=1d1f2e)](#)
 
-<sub><i>Portfolio / Resume / Email links above are placeholders — send me the real URLs and I'll wire them in.</i></sub>
-
 </div>
 
 <br/>
@@ -54,7 +52,7 @@ I'm currently deepening production-deployment and evaluation practice — the ga
 <table border="0" cellspacing="0" cellpadding="20" style="border-radius:12px;border:1px solid #7C3AED;background:#161b22;width:100%">
 <tr><td>
 
-<img src="https://raw.githubusercontent.com/dev-pranshu04/datapilot-os/main/preview.png" width="100%" style="border-radius:8px;border:1px solid #30363d;margin-bottom:16px"/>
+<img src="./assets/previews/datapilot-os.png" width="100%" style="border-radius:8px;border:1px solid #30363d;margin-bottom:16px"/>
 
 <h3>📊 DataPilot OS — the AI analytics operating system</h3>
 
@@ -77,6 +75,8 @@ I'm currently deepening production-deployment and evaluation practice — the ga
 <table border="0" cellspacing="0" cellpadding="20" style="border-radius:12px;border:1px solid #7C3AED;background:#161b22;width:100%">
 <tr><td>
 
+<img src="./assets/previews/resumeiq.png" width="100%" style="border-radius:8px;border:1px solid #30363d;margin-bottom:16px"/>
+
 <h3>📄 ResumeIQ — career intelligence grounded in your actual resume</h3>
 
 **One line:** upload a resume and a job description, get an ATS/match analysis, a skill-gap breakdown, a career roadmap, and interview prep — not generic advice, output tied to the two documents you gave it.
@@ -98,7 +98,7 @@ I'm currently deepening production-deployment and evaluation practice — the ga
 <table border="0" cellspacing="0" cellpadding="20" style="border-radius:12px;border:1px solid #7C3AED;background:#161b22;width:100%">
 <tr><td>
 
-<img src="https://raw.githubusercontent.com/dev-pranshu04/Living_Chronicles/main/preview.png" width="100%" style="border-radius:8px;border:1px solid #30363d;margin-bottom:16px"/>
+<img src="./assets/previews/living-chronicles.png" width="100%" style="border-radius:8px;border:1px solid #30363d;margin-bottom:16px"/>
 
 <h3>📜 The Living Chronicle — a world that isn't about you</h3>
 
@@ -121,7 +121,7 @@ I'm currently deepening production-deployment and evaluation practice — the ga
 <table border="0" cellspacing="0" cellpadding="20" style="border-radius:12px;border:1px solid #7C3AED;background:#161b22;width:100%">
 <tr><td>
 
-<img src="https://raw.githubusercontent.com/dev-pranshu04/Ghost_finder/main/preview.png" width="100%" style="border-radius:8px;border:1px solid #30363d;margin-bottom:16px"/>
+<img src="./assets/previews/ghost-finder.png" width="100%" style="border-radius:8px;border:1px solid #30363d;margin-bottom:16px"/>
 
 <h3>👻 Ghost Finder — privacy by construction, not by policy</h3>
 
@@ -143,8 +143,6 @@ I'm currently deepening production-deployment and evaluation practice — the ga
 <!-- ── ResearchX ── -->
 <table border="0" cellspacing="0" cellpadding="20" style="border-radius:12px;border:1px solid #f0b429;background:#161b22;width:100%">
 <tr><td>
-
-<img src="https://raw.githubusercontent.com/dev-pranshu04/ResearchX/main/preview.png" width="100%" style="border-radius:8px;border:1px solid #30363d;margin-bottom:16px"/>
 
 <h3>🧪 ResearchX — idea to publication-ready draft, with the AI's work checkable at every stage</h3>
 
